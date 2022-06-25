@@ -62,7 +62,7 @@
   transform: rotate(180deg)
 }
 .popup .content {
-  max-height: 60%;
+  height: fit-content;
   overflow: auto;
 }
 
