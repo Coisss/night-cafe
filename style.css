@@ -233,12 +233,13 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 10%;
 }
 
 .meat {
     background: white;
     width: fit-content;
-    padding: 30px;
+    padding: 40px;
     border-radius: 50px;
     margin: 30px;
     transition: .3s;
