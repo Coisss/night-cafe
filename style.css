@@ -68,6 +68,7 @@
 
 /*попап*/
 
+
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -81,10 +82,14 @@ body {
 header {
     background: linear-gradient(90deg, #1D4350 0%, #A43931 100%);
     padding: 45px;
+}
+
+.header_all {
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
     white-space: nowrap;
+    margin: 0px 18%;
 }
 
 footer img {
@@ -262,10 +267,12 @@ img {
 
 .people {
     display: flex;
-    justify-content: space-around;
+    margin: 0px 15%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    position: relative;
-    right: 25px;
+    max-width:1200px;
 }
 
 h4 {
