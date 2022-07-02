@@ -153,6 +153,7 @@ h1 {
 
 .p {
     transition: .3s;
+    margin: 15px;
 }
 
 .p:hover {
